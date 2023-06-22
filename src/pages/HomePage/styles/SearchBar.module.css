@@ -1,0 +1,43 @@
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    border-radius: 10px;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .input {
+    border: 4px solid #8DCFDDCF;
+    height: 4rem;
+    border-radius: 20px;
+    width: 22rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: start;
+    border-radius: 15px;
+    
+  }
+  
+  .input::placeholder {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5rem; 
+    color: #B8B8B8; /* Adjust the font size as desired */
+    width: 100%;
+    justify-content: start;
+  }
+
+  .cover img{
+    color: #B8B8B8;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    height: 1.2rem;
+  }

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offersDiv {
+    width: 95%;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offersDiv h1 {
+    text-align: center;
+}
+
+.offersContainer{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.subContainer{
+    display: flex;
+    justify-content: space-between;
+    gap:11px;
+}
+
+.offerOne{
+    margin-top: 1rem;
+    height:30vh;
+    z-index: 1;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+}
+
+.offerTwo{
+    margin-top: 1rem;
+    height: 30vh;
+    z-index: 1;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offerOne img{
+    
+    height: 100%;
+    width: 99%;
+}
+
+.offerTwo img{
+    height: 100%;
+    width: 99%;
+}
+

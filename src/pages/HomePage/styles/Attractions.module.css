@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+
+
+.masterAttracDv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.anContainer{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.attractDiv {
+    margin-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.attractDiv h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns of equal width */
+    grid-template-rows: repeat(2, 1fr);
+    /* Two rows of equal height */
+    gap: 1rem;
+    /* Gap between grid items */
+}
+
+.card{    
+    background-color: white;
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 0.01rem solid rgba(0, 0, 0, 0.24);
+}
+
+
+.imgContainer {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.imgContent{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    position: relative;
+    z-index: 0;
+}
+
+.imgContent img{
+    width: 100%;
+    height: 15vh;
+    border-radius: 20px 20px 0 0;
+}
+
+.imgContent span{
+    color: black;
+    background-color: white;
+    font-size: 0.7rem;
+    position: absolute;
+    font-weight: 700;
+    z-index: 1;
+    padding: 0.25rem;
+    border-radius: 10px;
+    right: 10px;
+    top: 8px;
+    margin-bottom: 0.3rem;
+}
+
+.textContentCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    margin-top: 1rem;
+    width: 90%;
+    height: 100%;
+    line-height: 1rem;
+}
+
+.content h3{
+    font-size: 0.9rem;
+    color: #4095A7;
+    font-weight: 800;
+    margin-bottom: 0.8rem;
+    margin-top: 0.5rem;
+    text-align: left;
+}
+
+.content span{
+    font-size: 0.7rem;
+    font-weight: 800;
+    margin-bottom: 0.8rem;
+    padding-bottom: 1rem;
+}

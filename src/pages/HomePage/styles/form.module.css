@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+
+.formDiv{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5rem;
+    z-index: 1;
+}
+
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 10vh;
+    background-color: #1E465E;
+    border-radius: 20px;
+    border: 0.01rem solid rgba(69, 38, 38, 0.24) ;
+}
+
+
+.form input {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 12px;
+    margin-left: 1rem;
+    padding: 0.3rem;
+}
+
+.form button{
+    background-color: #fff;
+    padding: 0.2rem;
+    color: black;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    margin-right: 1rem;
+}

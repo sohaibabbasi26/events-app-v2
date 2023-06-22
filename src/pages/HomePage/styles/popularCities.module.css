@@ -1,0 +1,47 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+  
+  .txt1 h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    margin: 1rem 0 1rem 0 ;
+   }
+   
+    .city {
+      display: flex;
+      justify-content: space-evenly;
+      line-height: 2.2;
+      background:white;
+      width: auto;
+      
+    }
+    
+    .links_half{
+      font-size: 0.8rem;
+      display:flex;
+      justify-content: space-between;
+      font-family: 'Poppins', sans-serif;
+        list-style: none;
+        color: #000;
+      /* min-width:60%; */
+      /* background-color:red; */
+    
+    }
+
+    
+
+    .f_help nav{
+        list-style: none;
+    }
+
+    .actualLinks{
+        color: #000;
+        list-style: none;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 0.7rem;
+    }
+
+    .f_help ul{
+        padding: 0;
+    }
